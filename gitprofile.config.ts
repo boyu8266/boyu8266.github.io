@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'boyu8266', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -52,14 +52,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Brendan Chen(boyu8266)',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,49 +69,60 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://boyu8266.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'boryuh8266@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Python',
+    'Node.js',
+    'Android',
     'JavaScript',
     'React.js',
-    'Node.js',
-    'Nest.js',
+    'Angular',
     'MySQL',
-    'PostgreSQL',
+    'MongoDB',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: '日月光集團-環鴻科技股份有限公司 (南投草屯) - 2y',
+      position: '軟體開發處-高級工程師',
+      from: '2022/12/26',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.usiglobal.com/tw',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: '國泰人壽 (台中南屯) - 2m',
+      position: '台中開發中心-高級工程師',
+      from: '2022/09/19',
+      to: '2022/11/30',
+      companyLink: 'https://www.cathaylife.com.tw/',
+    },
+    {
+      company: '羅傑斯人工智能 (台北中山) - 3y',
+      position: '系統組-安卓工程師',
+      from: '2019/09/02',
+      to: '2022/09/16',
+      companyLink: '',
+    },
+    {
+      company: '寶成鞋業 (台中西屯) - 1y',
+      position: '資訊處創新平台-工程師',
+      from: '2018/10',
+      to: '2019/08',
+      companyLink: '',
     },
   ],
   certifications: [
