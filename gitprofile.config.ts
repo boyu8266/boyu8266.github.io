@@ -31,24 +31,7 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      projects: [],
     },
   },
   seo: {
@@ -97,80 +80,56 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: '日月光集團-環鴻科技股份有限公司 (南投草屯) - 2y',
+      company: '日月光集團-環鴻科技股份有限公司 (南投草屯)',
       position: '軟體開發處-高級工程師',
       from: '2022/12/26',
-      to: 'Present',
+      to: 'Present (2y)',
       companyLink: 'https://www.usiglobal.com/tw',
     },
     {
-      company: '國泰人壽 (台中南屯) - 2m',
-      position: '台中開發中心-高級工程師',
+      company: '國泰人壽 (台中南屯)',
+      position: '台中軟體開發中心-高級工程師',
       from: '2022/09/19',
-      to: '2022/11/30',
+      to: '2022/11/30 (3m)',
       companyLink: 'https://www.cathaylife.com.tw/',
     },
     {
-      company: '羅傑斯人工智能 (台北中山) - 3y',
+      company: '羅傑斯人工智能 (台北中山)',
       position: '系統組-安卓工程師',
       from: '2019/09/02',
-      to: '2022/09/16',
+      to: '2022/09/16 (3y)',
       companyLink: '',
     },
     {
-      company: '寶成鞋業 (台中西屯) - 1y',
+      company: '寶成鞋業 (台中西屯)',
       position: '資訊處創新平台-工程師',
-      from: '2018/10',
-      to: '2019/08',
-      companyLink: '',
+      from: '2018/09',
+      to: '2019/08 (1y)',
+      companyLink: 'https://www.pouchen.com/index.php/',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: '國立高雄第一科技大學',
+      degree: '機械與自動化工程系 (畢業)',
+      from: '2011',
+      to: '2015',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: '國立彰化師範大學附屬高級工業職業學校',
+      degree: '機械科  (畢業)',
+      from: '2009',
+      to: '2011',
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -186,7 +145,7 @@ const CONFIG = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -245,11 +204,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: '',
 
   enablePWA: true,
 };
