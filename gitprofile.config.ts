@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['boyu8266/proot-distro-containers', 'boyu8266/ist', 'boyu8266/instaduler-cli'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['boyu8266/nextjs-auth-line', 'boyu8266/nextjs-auth-google', 'boyu8266/proot-distro-containers', 'boyu8266/ist', 'boyu8266/instaduler-cli'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
