@@ -85,7 +85,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'USI Global (Member of ASE Group) (Caotun, Nantou)',
-      position: 'Software Development Department - Senior Engineer',
+      position: 'Application Software Development Dept. - Senior Engineer',
       from: '2022/12/26',
       to: 'Present (3y)',
       companyLink: 'https://www.usiglobal.com/tw',
