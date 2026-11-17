@@ -25,7 +25,13 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['boyu8266/nextjs-auth-line', 'boyu8266/nextjs-auth-google', 'boyu8266/proot-distro-containers', 'boyu8266/ist', 'boyu8266/instaduler-cli'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'boyu8266/nextjs-auth-line',
+          'boyu8266/nextjs-auth-google',
+          'boyu8266/proot-distro-containers',
+          'boyu8266/ist',
+          'boyu8266/instaduler-cli',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -35,8 +41,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Brendan Chen(boyu8266)',
-    description: '',
+    title: 'Brendan Chen (boyu8266) — AI Applications & Platform Engineering',
+    description:
+      'Software engineer with 8 years of experience across AI application integration (Azure OpenAI, AI agents), enterprise systems (procurement allocation, PCB test point automation), and platform engineering (self-hosted GitLab/Gitea, CI/CD, Docker).',
     imageURL: '',
   },
   social: {
@@ -62,40 +69,41 @@ const CONFIG = {
     email: 'boryuh8266@gmail.com',
   },
   resume: {
-    fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Java',
     'Python',
-    'Node.js',
-    'Android',
+    'TypeScript',
     'JavaScript',
-    'React.js',
+    'Java',
     'Angular',
+    'Next.js',
+    'Flask',
+    'FastAPI',
+    'GraphQL',
     'MySQL',
     'MongoDB',
-    'Git',
     'Docker',
-    'Jenkins',
-    'Github Actions',
+    'GitLab CI/CD',
     'Gitea Actions',
-    'Gitlab CI/CD'
+    'Azure App Service',
+    'Azure OpenAI',
+    'pytest',
+    'TensorFlow Lite',
+    'Android',
   ],
   experiences: [
     {
       company: 'USI Global (Member of ASE Group) (Caotun, Nantou)',
       position: 'Application Software Development Dept. - Senior Engineer',
       from: '2022/12/26',
-      to: 'Present (3y)',
+      to: 'Present (4y)',
       companyLink: 'https://www.usiglobal.com/tw',
-    },
-    {
-      company: 'Cathay Life Insurance (Nantun, Taichung)',
-      position: 'Taichung Software Development Center - Senior Engineer',
-      from: '2022/09/19',
-      to: '2022/11/30 (3m)',
-      companyLink: 'https://www.cathaylife.com.tw/',
+      descriptions: [
+        'Built an internal AI assistant on Azure OpenAI and Azure App Service, serving up to 50 users; integrated MongoDB, Microsoft Teams, Microsoft Graph, and an internal timesheet API through tool calling.',
+        'Delivered a procurement allocation platform (Angular 15, Flask, MongoDB) used across all BUs and plants; processes 211K+ RFQ rows and ~15K BOM groups per run, cutting a week-long manual cycle to under one day.',
+        'Built PCB test point automation (Angular 15, IPC-2581) that reduced cycle time by over 50%; co-inventor on patent I932271; self-hosted Gitea and maintained CI/CD pipelines.',
+      ],
     },
     {
       company: 'RogersAI (Zhongshan, Taipei)',
@@ -103,6 +111,11 @@ const CONFIG = {
       from: '2019/09/02',
       to: '2022/09/16 (3y)',
       companyLink: '',
+      descriptions: [
+        'Integrated face recognition inference with TensorFlow Lite on Qualcomm 205 devices, owning model deployment, device integration, and production reliability.',
+        'Designed MySQL schemas for 1M+ face embeddings, attendance records, RBAC, and audit logs.',
+        'Self-hosted GitLab and set up CI/CD pipelines for build and deployment.',
+      ],
     },
     {
       company: 'Pou Chen Corporation (Xitun, Taichung)',
@@ -110,25 +123,28 @@ const CONFIG = {
       from: '2018/09',
       to: '2019/08 (1y)',
       companyLink: 'https://www.pouchen.com/index.php/',
+      descriptions: [
+        'Developed and maintained internal business systems in Java.',
+      ],
     },
   ],
-  certifications: [
-  ],
+  certifications: [],
   educations: [
     {
-      institution: 'National Kaohsiung First University of Science and Technology',
+      institution: 'National Kaohsiung University of Science and Technology',
       degree: 'Department of Mechanical and Automation Engineering',
       from: '2011',
       to: '2015',
     },
-    {
-      institution: 'The Affiliated Industrial Vocational High School of National Changhua University of Education',
-      degree: 'Department of Mechanical Engineering',
-      from: '2009',
-      to: '2011',
-    },
   ],
   publications: [
+    {
+      title:
+        '電路測試點產生方法及其系統 (Circuit Test Point Generation Method and System)',
+      journalName: 'Patent No. I932271',
+      description:
+        'Co-inventor. Granted patent for automated PCB test point generation.',
+    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
